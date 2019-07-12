@@ -1,5 +1,6 @@
 # pyConvertPdfToImageThenCrop
-Convert a large number of PDF files to image files, then crop them. 大量のPDFファイルを画像ファイルに変換し、その中から画像を切り出す。
+Convert a large number of PDF files to image files, then crop them. <br>
+大量のPDFファイルを画像ファイルに変換し、その中から画像を切り出す。
 
 ## 1 : There are a large number of PDF files stored in pdf directory as below
 ~~~
