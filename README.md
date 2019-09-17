@@ -3,6 +3,7 @@ Convert a large number of PDF files to image files, then crop them. <br>
 大量のPDFファイルを画像ファイルに変換し、その中から画像を切り出す。
 
 ## 1 : There are a large number of PDF files stored in pdf directory as below
+以下のディレクトリに、PDFファイルが複数保存されている。
 ~~~
 Data
 ├──pdf 
@@ -15,7 +16,9 @@ Image of Sample-01.pdf<br>
 <img src="https://github.com/okagen/pyConvertPdfToImageThenCrop/blob/master/Data/img/Sample-01-1.png?raw=true" width="200">
 
 ## 2 : Convert PDF files to image files(*.png) then save them into the img directory.
-More than 1 files are created if a PDF file has some pages.
+PDFファイルを画像ファイルに変換して、imgフォルダに保存する。
+
+More than 1 files are created if a PDF file has some pages. / 1つのPDFファイル内に複数のページがある場合、ページごとに画像ファイルが出力される。
 ~~~
 Data
 ├─img
@@ -29,8 +32,10 @@ Data
 ~~~
 
 ## 3 : Crop image files then save them into the img_crop directory.
-Create directory with image file name and save the croped image file in it.  
-In the case of cropping 4 times, the file structure appears like below.
+画像ファイルを切り抜いた画像を、img_cropフォルダ内に保存する。
+
+Create directory with image file name and save the croped image file in it. / 画像ファイル名を用いてフォルダを作成し、切り抜いた画像をその中に保存する。  
+In the case of cropping 4 times, the directory structure appears like below. / 4回切り抜いた場合、以下のようなフォルダ構成になる。
 ~~~
 Data
 ├─img_crop
