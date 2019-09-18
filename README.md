@@ -17,7 +17,7 @@ Image of Sample-01.pdf<br>
 
 ## 2 : Convert PDF files to image files(*.png) then save them into the img directory.
 PDFファイルを画像ファイルに変換して、imgフォルダに保存する。
-
+  
 More than 1 files are created if a PDF file has some pages. / 1つのPDFファイル内に複数のページがある場合、ページごとに画像ファイルが出力される。
 ~~~
 Data
@@ -34,8 +34,7 @@ Data
 ## 3 : Crop image files then save them into the img_crop directory.
 画像ファイルを切り抜いた画像を、img_cropフォルダ内に保存する。
 
-Create directory with image file name and save the croped image file in it. / 画像ファイル名を用いてフォルダを作成し、切り抜いた画像をその中に保存する。  
-In the case of cropping 4 times, the directory structure appears like below. / 4回切り抜いた場合、以下のようなフォルダ構成になる。
+Create directory with image file name and save the croped image file in it. In the case of cropping 4 times, the directory structure appears like below. / 画像ファイル名を用いてフォルダを作成し、切り抜いた画像をその中に保存する。4回切り抜いた場合、以下のようなフォルダ構成になる。
 ~~~
 Data
 ├─img_crop
